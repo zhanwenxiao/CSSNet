@@ -1,7 +1,7 @@
-# 3DSCD
+# CSSNet
 
 <p align="center">
    <img src="模型整体结构.png" >      
 </p>
 
-In this method, the principles and mechanisms of the 3D semantic change detection methods are analyzed in detail to verify that there is a mutually beneficial deep-coupling relationship between semantics and change, and a deep learning based urban 3D Semantic Change Detection method, 3DSCD, is proposed, which segments semantic categories while detecting changes and deeply couples the semantic and change in the model structure to mutually promote and reinforce each other, achieving the superior comprehensive performance of 3D from-to semantic change detection. The efficiency of 3DSCD on urban 3D semantic change detection has been demonstrated by multiple experiments. The method is in submission and the code will be coming soon.
+To address 3D multi-task semantic change detection, we propose a Cross-task Symbiosis Siamese Network, named CSSNet, mainly including two modules, Change-augmented Semantic Segmentation module (CaSS) and Semantic-supplementary Change Detection module (SsCD). In CSSNet, the CaSS module augments the semantic segmentation performance by implicitly incorporating change features, and the SsCD module is responsible for detecting change supplemented by semantic features. These two modules deeply couple the two tasks in a unified architecture, fully leveraging inter-task dependencies to synergistically enhance both objectives. The experiments on multiple datasets demonstrate the efficiency of CSSNet on 3D multi-task semantic change detection.
